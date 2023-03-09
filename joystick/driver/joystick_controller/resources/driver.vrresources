@@ -1,0 +1,15 @@
+{
+	"jsonid" : "vrresources",
+	"statusicons" : {
+		"Tracker" : {
+			"Prop_NamedIconPathDeviceOff_String" : "{joystick_controller}/icons/tracker_status_off.png",
+			"Prop_NamedIconPathDeviceSearching_String" : "{joystick_controller}/icons/tracker_status_searching.gif",
+			"Prop_NamedIconPathDeviceSearchingAlert_String" : "{joystick_controller}/icons/tracker_status_searching_alert.gif",
+			"Prop_NamedIconPathDeviceReady_String" : "{joystick_controller}/icons/tracker_status_ready.png",
+			"Prop_NamedIconPathDeviceReadyAlert_String" : "{joystick_controller}/icons/tracker_status_ready_alert.png",
+			"Prop_NamedIconPathDeviceNotReady_String" : "{joystick_controller}/icons/tracker_status_error.png",
+			"Prop_NamedIconPathDeviceStandby_String" : "{joystick_controller}/icons/tracker_status_standby.png",
+			"Prop_NamedIconPathDeviceAlertLow_String" : "{joystick_controller}/icons/tracker_status_ready_low.png"
+		}
+    }
+}

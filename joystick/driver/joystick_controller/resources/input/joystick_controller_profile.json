@@ -1,0 +1,53 @@
+{
+    "jsonid": "input_profile",
+    "controller_type": "joystick_controller",
+    "legacy_profile": "joystick_controller",
+    "input_bindingui_mode": "single_device",
+    "input_bindingui_left": {
+        "image": "{htc}/icons/vive_tracker.svg"
+    },
+    "input_bindingui_right": {
+        "image": "{htc}/icons/vive_tracker.svg"
+    },
+    
+    "input_source": {
+        "/input/stick": {
+            "type": "joystick",
+            "binding_image_point": [
+                0,
+                0
+            ],
+            "order": 1
+        },
+        "/output/haptic": {
+            "type": "vibration",
+            "binding_image_point": [
+                5,
+                35
+            ]
+        }
+    },
+    "input_components": {
+        "/input/stick/x": {
+            "bit_offset": 0,
+            "bit_width": 10,
+            "type": "scalar",
+            "min": 0,
+            "max": 1024,
+            "unit": "twosided",
+            "special_value_zero":0
+        },
+        "/input/stick/y": {
+            "bit_offset": 10,
+            "bit_width": 10,
+            "type": "scalar",
+            "min": 0,
+            "max": 1024,
+            "unit": "twosided",
+            "special_value_zero":0
+        },
+		"/output/haptic" : {
+			"type" : "vibration"
+		}
+    }
+}
